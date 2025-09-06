@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page Assignment</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section id="events">
+    <h2>Event Handling Example</h2>
+    <button id="messageBtn">Click Me!</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section id="interactive">
+    <h2>Interactive Features</h2>
+
+    <!-- Light/Dark Mode -->
+    <button id="toggleTheme">Toggle Light/Dark Mode</button>
+
+    <!-- Counter Game -->
+    <div class="counter">
+      <p>Score: <span id="count">0</span></p>
+      <button id="increaseBtn">+ Increase</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq">
+      <h3>FAQ</h3>
+      <button class="faq-toggle">What is this page about?</button>
+      <p class="faq-answer hidden">This page shows JavaScript interactivity with events, DOM manipulation, and form validation.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section id="formSection">
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <span class="error" id="nameError"></span>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+      <span class="error" id="emailError"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter a strong password">
+      <span class="error" id="passwordError"></span>
+
+      <button type="submit">Submit</button>
+      <p id="formSuccess"></p>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

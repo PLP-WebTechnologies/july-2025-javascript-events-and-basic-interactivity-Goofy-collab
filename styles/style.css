@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #6200ea;
+  color: white;
+}
+
+button:hover {
+  background: #4500b5;
+}
+
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.counter {
+  margin-top: 10px;
+}
